@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // Database Connection URL (localhost)
-const uri = 'mongodb://sreymomchea9988:Sreymom12345@ac-cgzu5mo-shard-00-00.kvzc8ej.mongodb.net:27017,ac-cgzu5mo-shard-00-01.kvzc8ej.mongodb.net:27017,ac-cgzu5mo-shard-00-02.kvzc8ej.mongodb.net:27017/?ssl=true&replicaSet=atlas-wggdju-shard-0&authSource=admin&appName=Cluster0';
+const uri = 'mongodb://admin:Sreymom123@ac-3grmazs-shard-00-00.x0rsgrt.mongodb.net:27017,ac-3grmazs-shard-00-01.x0rsgrt.mongodb.net:27017,ac-3grmazs-shard-00-02.x0rsgrt.mongodb.net:27017/?ssl=true&replicaSet=atlas-p5m3sk-shard-0&authSource=admin&appName=UniversityCluster';
 
 const clientOptions = { serverApi: { version: '1', strict: true, deprecationErrors: true } };
 
