@@ -37,5 +37,5 @@ app.post('/reg', (req, res) => {
 }//CLOSE CALLBACK FUNCTION BODY
 );//CLOSE POST METHOD
 
-// START THE EXPRESS SERVER. 5000 is the PORT NUMBER
+// START THE EXPRESS SERVER. 5003 is the PORT NUMBER
 app.listen(5003, () => console.log('EXPRESS Server Started at Port No: 5003'));

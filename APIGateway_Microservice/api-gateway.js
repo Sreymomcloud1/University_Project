@@ -7,10 +7,10 @@ const app = express();
 app.use(express.json());
 
 // ⚠️ Replace with YOUR actual EC2 Private IPs
-const STUDENT_URL      = 'http://<EC2-Student-PRIVATE-IP>:5000';
-const TEACHER_URL      = 'http://<EC2-Teacher-PRIVATE-IP>:5001';
-const AUTH_URL         = 'http://<EC2-3-PRIVATE-IP>:5002';
-const REGISTRATION_URL = 'http://<EC2-3-PRIVATE-IP>:5003';
+const STUDENT_URL      = 'http://172.31.40.81:5000';
+const TEACHER_URL      = 'http://172.31.47.149:5001';
+const AUTH_URL         = 'http://172.31.35.198:5002';
+const REGISTRATION_URL = 'http://172.31.35.198:5003';
 
 const JWT_SECRETE = process.env.JWT_SECRETE;
 
